@@ -52,12 +52,6 @@ Download the [Kaggle Credit Card Fraud dataset](https://www.kaggle.com/datasets/
 - A large gap to the supervised reference remains, which is what labelled fraud is worth.
 - Random baseline PR-AUC equals the fraud rate (0.01), so every model is far above chance.
 
-## Limitations & next steps
-- Synthetic results show the pipeline works. They are not evidence about real-world fraud. Run on real data before drawing conclusions.
-- Single train/test split. Add repeated stratified CV and confidence intervals.
-- Add cost-sensitive thresholding (cost of missed fraud vs. cost of a false alert).
-- Explore a variational autoencoder and SHAP explanations for flagged transactions.
-
 ## Project layout
 ```
 src/fraudad/  data.py · autoencoder.py · models.py · metrics.py · train.py
