@@ -1,0 +1,8 @@
+{
+  "source": "real:data\\creditcard.csv",
+  "mode": "semi",
+  "backend": "auto",
+  "seed": 42,
+  "rows": 284807,
+  "fraud_rate": 0.001727485630620034
+}
